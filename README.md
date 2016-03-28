@@ -30,6 +30,7 @@ that will use the following components:
 - [x] Create application example backend component (API Rest)
 - [x] Dockerize application example api microservice
 - [x] Dockerize a Redis instance
+- [x] Dockerize a MongoDB instance
 - [ ] Containerize consul with docker
 - [ ] Containerize registrator and integrate it with docker & consul
 - [ ] Containerize vault
