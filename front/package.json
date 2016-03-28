@@ -10,6 +10,9 @@
   "author": "Raül Pérez <repejota@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "express-session": "^1.11.3",
+    "connect-redis": "^2.3.0",
+    "redis": "^0.12.1"
   }
 }
