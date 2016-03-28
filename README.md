@@ -12,14 +12,16 @@ be sure is something close to a real one.
 The example application going to be deployed is a simple poll vote web app
 that will use the following components:
 
-* A frontend microservice that will be responsible of the UI for the final
-  user.
-* A backend microservice based on a REST API that will manage votes,
+* A frontend microservice based on *ExpressJS*, that will be responsible of 
+  the UI for the final user.
+* A backend microservice based on a *REST API* that will manage votes,
   user sessions, etc ...
-* The persistence of the votes will be handled by a MongoDB database.
-* A Redis instance will be used to persist user sessions.
+* The persistence of the votes will be handled by a *MongoDB* database.
+* A *Redis* instance will be used to persist user sessions.
 
 ![Application Arquitecture](docs/fig1.png)
+
+
 
 # TODO
 
