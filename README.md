@@ -17,7 +17,9 @@ that will use the following components:
 * A backend microservice based on a REST API that will manage votes,
   user sessions, etc ...
 * The persistence of the votes will be handled by a MongoDB database.
-* A Redis instance will be used to manage user sessions.
+* A Redis instance will be used to persist user sessions.
+
+![Application Arquitecture](docs/fig1.png)
 
 # TODO
 
