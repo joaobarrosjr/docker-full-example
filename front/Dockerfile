@@ -16,4 +16,4 @@ ADD . /opt/front
 # Export service
 EXPOSE 3000
 
-CMD["npm", "start"]
+CMD ["npm", "start"]
