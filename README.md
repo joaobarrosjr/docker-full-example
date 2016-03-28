@@ -12,7 +12,7 @@ be sure is something close to a real one.
 The example application going to be deployed is a simple poll vote web app
 that will use the following components:
 
-* A frontend microservice based on *ExpressJS*, that will be responsible of 
+* A frontend microservice based on *ExpressJS*, that will be responsible of
   the UI for the final user.
 * A backend microservice based on a *REST API* that will manage votes,
   user sessions, etc ...
@@ -25,7 +25,8 @@ that will use the following components:
 
 # TODO
 
-- [ ] Create application example front commponent
+- [x] Create application example front microservice
+- [x] Dockerize application example front microservice
 - [ ] Create application example backend component (API Rest)
 - [ ] Containerize consul with docker
 - [ ] Containerize registrator and integrate it with docker & consul
